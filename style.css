@@ -1,6 +1,13 @@
+/* ---------------------------------------------------
+    START GLOBAL STYLE
+----------------------------------------------------- */
+
 body {
     background-color: #36393e !important;
+    font-family: 'Poppins', sans-serif;
+    background: #fafafa;
 }
+
 
 i {
     padding-right: 15px;
@@ -11,15 +18,75 @@ img {
     border-radius: 50%;
 }
 
-.wrapper {
-    display: flex;
-    align-items: stretch;
+
+p {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.1em;
+    font-weight: 300;
+    line-height: 1.7em;
+    color: #999;
 }
 
-#sidebar {
-    min-width: 250px;
-    max-width: 250px;
+.wrapper {
+    display: flex;
+    width: 100%;
+    
+}
+
+
+
+
+/* ---------------------------------------------------
+    END GLOBAL STYLE
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    START CONTENT STYLE
+----------------------------------------------------- */
+
+#content {
+    width: calc(100% - 250px);
+    padding: 40px;
     min-height: 100vh;
+    transition: all 0.3s;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#content.active {
+    width: 100% !important;
+}
+
+/* ---------------------------------------------------
+    END CONTENT STYLE
+----------------------------------------------------- */
+
+/* ---------------------------------------------------
+    SIDEBAR STYLE
+----------------------------------------------------- */
+
+#sidebar {
+    width: 250px;
+    height: 100vh;
+    position: fixed;
+    background: #1e2124;
+    color: #fff;
+    transition: all 0.3s;
+    top: 0;
+    left: 0;
+    z-index: 999;
+}
+
+
+
+#sidebar.active {
+    margin-left: -250px;
+}
+
+#sidebar ul.components {
+    padding: 20px 0;
+    border-bottom: 1px solid #47748b;
 }
 
 a[data-toggle="collapse"] {
@@ -32,6 +99,12 @@ a[data-toggle="collapse"] {
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
+}
+
+ul ul a {
+    font-size: 0.9em !important;
+    padding-left: 30px !important;
+    background: #6d7fcc;
 }
 
 @media (max-width: 768px) {
@@ -63,19 +136,6 @@ a[data-toggle="collapse"] {
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
 
 
-body {
-    font-family: 'Poppins', sans-serif;
-    background: #fafafa;
-}
-
-p {
-    font-family: 'Poppins', sans-serif;
-    font-size: 1.1em;
-    font-weight: 300;
-    line-height: 1.7em;
-    color: #999;
-}
-
 a,
 a:hover,
 a:focus {
@@ -84,12 +144,6 @@ a:focus {
     transition: all 0.3s;
 }
 
-#sidebar {
-    background: #1e2124;
-    color: #fff;
-    transition: all 0.3s;
-
-}
 
 #sidebar .sidebar-header {
     padding: 20px;
@@ -251,6 +305,38 @@ h1 {
     border-radius: 10px;
 }
 
+.card-deck{
+    padding-top: .5%;
+    padding-bottom: .5%;
+    padding-right: 1%;
+    padding-left: 1%;
+}
+ .card-deck p{
+     color: white;
+ }
+
+ .card-deck h5{
+    color: white;
+}
+
+ .card {
+     background-color: #1e2124;
+     border-radius: 3px;
+ }
+
+.projects-container {
+    background-color: #424549;
+    margin-top: 2.5%;
+    margin-right: 2.5%;
+    margin-bottom: 2.5%;
+    margin-left: 2.5%;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
 /* timeline code */
 
 HTML SCSSResult EDIT ON html,
@@ -263,7 +349,7 @@ body {
 
 .cd-container {
     width: 90%;
-    max-width: 1080px;
+    max-width: 2100px;
     margin: 0 auto;
     background: #424549;
     padding: 0 10%;
@@ -376,6 +462,31 @@ body {
     border-radius: 2px;
     padding: 1em;
     border-radius: 8px;
+    text-align: justify;
+    text-justify: inter-word;
+
+    box-shadow:
+    0 2.8px 2.2px rgba(0, 0, 0, 0.034),
+    0 6.7px 5.3px rgba(0, 0, 0, 0.048),
+    0 12.5px 10px rgba(0, 0, 0, 0.06),
+    0 22.3px 17.9px rgba(0, 0, 0, 0.072),
+    0 41.8px 33.4px rgba(0, 0, 0, 0.086),
+    0 100px 80px rgba(0, 0, 0, 0.12)
+}
+
+
+.cd-timeline-content h2{
+    font-family: 'Ubuntu', sans-serif;
+    color: #7289da !important;
+}
+
+.cd-timeline-content h4{
+    font-size: small;
+    color: rgb(179, 179, 179) !important;
+}
+
+.subtitle p{
+    color: #7289da !important;
 }
 
 .timeline-content-info {
@@ -524,7 +635,13 @@ i {
 }
 
 .about-container h2 {
-    font-size: large;
-    color: #7289da;
-    padding-left: 10%;
+    font-size: medium;
+    position: absolute;
+    color: white;
+    padding-left: 2%;
+    padding-right: 2%;
 }
+.about-container{
+
+}
+

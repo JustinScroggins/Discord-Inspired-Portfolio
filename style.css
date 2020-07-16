@@ -125,6 +125,8 @@ ul ul a {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
+    height: 225px;
+    width: 225px;
 }
 
 .subtitle {

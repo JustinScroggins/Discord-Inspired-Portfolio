@@ -16,6 +16,8 @@ i {
 
 img {
     border-radius: 50%;
+    height: 225px;
+    width: 225px;
 }
 
 
@@ -121,10 +123,6 @@ ul ul a {
     font-family: 'Great Vibes', cursive;
 }
 
-.profile-picture {
-    height: 225px; !important
-    width: 225px;   !important
-}
 
 .display-name {
     text-align: center;

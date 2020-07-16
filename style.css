@@ -121,12 +121,15 @@ ul ul a {
     font-family: 'Great Vibes', cursive;
 }
 
+.profile-picture {
+     height: 225px;
+    width: 225px;   
+}
+
 .display-name {
     text-align: center;
     padding-top: 15px;
     padding-bottom: 15px;
-    height: 225px;
-    width: 225px;
 }
 
 .subtitle {

@@ -5,4 +5,4 @@ These files are completely free for you to use, modify, and distribute within an
 
 I'll update the files as I make changes to my portfolio.
 
-Demo: https://justinscroggins.github.io/Discord-Inspired-Portfolio/
+Demo: https://justinscroggins.github.io/portfolio/

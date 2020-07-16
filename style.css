@@ -122,8 +122,8 @@ ul ul a {
 }
 
 .profile-picture {
-     height: 225px;
-    width: 225px;   
+    height: 225px; !important
+    width: 225px;   !important
 }
 
 .display-name {

@@ -15,8 +15,7 @@ i {
 }
 
 img {
-    height: 225px;
-    width: 225px;
+
 }
 
 
@@ -33,7 +32,6 @@ p {
     width: 100%;
     
 }
-
 
 
 
@@ -200,6 +198,13 @@ ul ul a {
 .image-wrapper {
     border: 2px solid #2c2f33;
     border-radius: 25px;
+}
+
+img {
+    border-radius: 250px;
+    height: 185px !important;
+    width: 100%;
+    object-fit: cover;
 }
 
 

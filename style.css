@@ -14,10 +14,6 @@ i {
     padding-left: 15px;
 }
 
-img {
-
-}
-
 
 p {
     font-family: 'Poppins', sans-serif;
@@ -200,8 +196,8 @@ ul ul a {
     border-radius: 25px;
 }
 
-img {
-    border-radius: 250px;
+.mCS_img_loaded {
+    border-radius: 290px !important;
     height: 185px !important;
     width: 100%;
     object-fit: cover;
@@ -648,7 +644,5 @@ i {
     padding-left: 2%;
     padding-right: 2%;
 }
-.about-container{
 
-}
 

@@ -20,7 +20,7 @@
         integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous">
         </script>
     <script src="https://kit.fontawesome.com/8f994693f9.js" crossorigin="anonymous"></script>
-
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Justin Scroggins Portfolio</title>
     <script src="https://cdn.jsdelivr.net/npm/@widgetbot/crate@3" async defer>
@@ -43,10 +43,6 @@
                 <div class="profile-picture">
                     <img src="https://github.com/JustinScroggins/portfolio/blob/master/download.png?raw=true"
                         alt="profile picture">
-                    <div class="status-outline">
-                        <div class="online-status">
-                        </div>
-                    </div>
                 </div>
                 <div class="subtitle">
                     <strong>
@@ -57,8 +53,7 @@
                 </div>
             </div>
 
-            <ul class="list-unstyled components">
-                <p></p>
+            <ul class="components">
                 <li class="active">
                     <a href="#">Home</a>
                 </li>
@@ -92,43 +87,42 @@
                 </li>
             </ul>
 
+
         </nav>
+
         <!-- Page Content  -->
         <div id="content">
-            <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                <div class="container-fluid">
-
-                    <button type="button" id="sidebarCollapse" class="btn btn-dark">
-                        <i class="fas fa-align-left"></i>
-                        <span>Toggle Sidebar</span>
-                    </button>
-
-                    <div class="social-icons">
-                        <form class="form-inline my-2 my-lg-0">
-                            <a href="https://twitter.com/itz4blitz/"><i class="fab fa-twitter fa-lg"
-                                    style="color:#99aab5"></i>
-                                <a href="https://t.me/itz4blitz/"><i class="fab fa-telegram-plane fa-lg"
-                                        style="color:#99aab5"></i>
-                                    <a href="https://discordapp.com/channels/@me/Darkblitz#5922/"><i
-                                            class="fab fa-discord fa-lg" style="color:#99aab5"></i>
-                                        <a href="https://www.linkedin.com/in/justinscroggins/"><i
-                                                class="fab fa-linkedin-in fa-lg" style="color:#99aab5"></i>
-                                            <a href="https://github.com/JustinScroggins/"><i class="fab fa-github fa-lg"
-                                                    style="color:#99aab5"></i></a>
-                        </form>
-                    </div>
-                </div>
-            </nav>
+            <div id="collapseSidebar">
+                <button type="button" id="sidebarCollapse" class="navbar-btn">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+            <div class="social-icons">
+                <form class="form-inline my-2 my-lg-0">
+                    <a href="https://twitter.com/itz4blitz/"><i class="fab fa-twitter fa-lg" style="color:#99aab5"></i>
+                        <a href="https://t.me/itz4blitz/"><i class="fab fa-telegram-plane fa-lg"
+                                style="color:#99aab5"></i>
+                            <a href="https://discordapp.com/channels/@me/Darkblitz#5922/"><i
+                                    class="fab fa-discord fa-lg" style="color:#99aab5"></i>
+                                <a href="https://www.linkedin.com/in/justinscroggins/"><i
+                                        class="fab fa-linkedin-in fa-lg" style="color:#99aab5"></i>
+                                    <a href="https://github.com/JustinScroggins/"><i class="fab fa-github fa-lg"
+                                            style="color:#99aab5"></i></a>
+                </form>
+            </div>
             <div class="portfolio-container">
                 <section>
                     <div class="about-container">
                         <h1>Summary Statement</h1>
-                        <p>I am an experienced IT professional with a well-rounded background in software development
+                        <p>I am an experienced IT professional with a well-rounded background in software
+                            development
                             and
-                            computer networking. I have several years of professional experience in IT operations. Most
+                            computer networking. I have several years of professional experience in IT
+                            operations. Most
                             recently,
                             I've established a skillset in software development. Specifically, I have experience
-                            in Full Stack .NET Development creating n-tier software applications. 
+                            in Full Stack .NET Development creating n-tier software applications.
                         </p>
                     </div>
 
@@ -145,18 +139,25 @@
                                     <h2>Software Development - Eleven Fifty Academy</h2>
                                     <h4>Feb 2020 - present</h4>
                                     <p>
-                                        Eleven Fifty Academy has provided me with the skills to write clean code that
-                                        follows the SOLID design principles to create, maintain, test, reuse, and extend
+                                        Eleven Fifty Academy has provided me with the skills to write clean code
+                                        that
+                                        follows the SOLID design principles to create, maintain, test, reuse,
+                                        and extend
                                         software applications.
 
-                                        I've gained invaluable experience working with a team while at Eleven Fifty
-                                        Academy. Throughout the course I was exposed to, and able to apply Agile and
-                                        Scrum methodologies toward problem solving to create awesome things with a team and
+                                        I've gained invaluable experience working with a team while at Eleven
+                                        Fifty
+                                        Academy. Throughout the course I was exposed to, and able to apply Agile
+                                        and
+                                        Scrum methodologies toward problem solving to create awesome things with
+                                        a team
+                                        and
                                         individually on a deadline.
 
                                         While attending Eleven Fifty Academy, I've been able to vastly expand my
                                         knowledge of
-                                        C# and the .NET framework, HTML, CSS, Bootstrap 4, Razor Pages, RESTful API's,
+                                        C# and the .NET framework, HTML, CSS, Bootstrap 4, Razor Pages, RESTful
+                                        API's,
                                         Unit
                                         Testing with MOQ, HTTP, Git, and Github.</p>
                                 </div> <!-- cd-timeline-content -->
@@ -170,23 +171,33 @@
                                     <h2>Network Administrator - Novelty Inc.</h2>
                                     <h4>July 2019 - present</h4>
                                     <p>
-                                        As Novelty's Network Administrator, I have worked to ensure that the company's
-                                        computer networks, systems, and line of business applications are accessible and
-                                        working as optimally as possible. Aside from my typical duties, I've taken on
+                                        As Novelty's Network Administrator, I have worked to ensure that the
+                                        company's
+                                        computer networks, systems, and line of business applications are
+                                        accessible and
+                                        working as optimally as possible. Aside from my typical duties, I've
+                                        taken on
                                         several
-                                        projects to further my own skills and create improvements for my employer. One
+                                        projects to further my own skills and create improvements for my
+                                        employer. One
                                         in
-                                        particular achievement is the implementation of a Remote Management Suite. When
+                                        particular achievement is the implementation of a Remote Management
+                                        Suite. When
                                         I
-                                        arrived at Novelty, end-user and server security patch management was at around
+                                        arrived at Novelty, end-user and server security patch management was at
+                                        around
                                         18%
-                                        compliance. With the implementation of our RMM software, I was able to get patch
-                                        management to 94% compliance. I also was able to implement OS imaging and
-                                        deployment standards through our RMM, while previously this was done manually.
+                                        compliance. With the implementation of our RMM software, I was able to
+                                        get patch
+                                        management to 94% compliance. I also was able to implement OS imaging
+                                        and
+                                        deployment standards through our RMM, while previously this was done
+                                        manually.
                                         This
                                         has led to a 250% increase in deployment times. I also spearheaded the
                                         development
-                                        and deployment of the company's TurboBlueTorches website, which I still maintain
+                                        and deployment of the company's TurboBlueTorches website, which I still
+                                        maintain
                                         today.</p>
                                 </div> <!-- cd-timeline-content -->
                             </div> <!-- cd-timeline-block -->
@@ -199,18 +210,23 @@
                                     <h2>IT Systems Technician - BlackInk IT</h2>
                                     <h4>December 2018 - July 2019</h4>
                                     <p>
-                                        While at BlackInk IT I was able to learn enough on the job to earn several IT
-                                        certifications from industry vendors. Aside from this, I was able to create
+                                        While at BlackInk IT I was able to learn enough on the job to earn
+                                        several IT
+                                        certifications from industry vendors. Aside from this, I was able to
+                                        create
                                         several
                                         initiatives to improve system deployment times by evaluating and making
                                         recommendations
-                                        to the processes and procedures of these assignments. This led to a substantial
+                                        to the processes and procedures of these assignments. This led to a
+                                        substantial
                                         increase
                                         in the deployment time of systems.
 
-                                        I also worked to remediate and fix the company's website due to a Wordpress
+                                        I also worked to remediate and fix the company's website due to a
+                                        Wordpress
                                         vulnerability.
-                                        I provided several updates to fix broken themes and continue to harden and
+                                        I provided several updates to fix broken themes and continue to harden
+                                        and
                                         secure the
                                         company website to prevent future security breaches.
                                     </p>
@@ -225,21 +241,29 @@
                                     <h2>IT Help Desk - Momentum for Mental Health</h2>
                                     <h4>December 2017 - December 2019</h4>
                                     <p>
-                                        While at Momentum for Mental Health I spent extensive time learning the process
+                                        While at Momentum for Mental Health I spent extensive time learning the
+                                        process
                                         and procedures
-                                        involved in IT support and operations. I was able to spend a large amount of
+                                        involved in IT support and operations. I was able to spend a large
+                                        amount of
                                         time working directly
-                                        with the company's network administrator to obtain a strong foundation in
+                                        with the company's network administrator to obtain a strong foundation
+                                        in
                                         configuring, supporting,
-                                        and upgrading a Windows Server environment. I also was able to spend a large
+                                        and upgrading a Windows Server environment. I also was able to spend a
+                                        large
                                         amount of time working
-                                        on upgrade projects related to the company's data center. This included rewiring
+                                        on upgrade projects related to the company's data center. This included
+                                        rewiring
                                         and configuring
-                                        switches, firewall, UPS, and other hardware. In my role as Help Desk Technician,
+                                        switches, firewall, UPS, and other hardware. In my role as Help Desk
+                                        Technician,
                                         I learned the
-                                        importance in data critical thinking, data collection, and working with others
+                                        importance in data critical thinking, data collection, and working with
+                                        others
                                         in sometimes stressful
-                                        situations. I was able to work with over 500 end users and reduce overall
+                                        situations. I was able to work with over 500 end users and reduce
+                                        overall
                                         escalation of issues to
                                         tier 2 and 3 support by 80% in my position, as evidenced by our ticket
                                         resolutions.
@@ -255,13 +279,17 @@
                                     <h2>IT Systems Technician - The Stride Center</h2>
                                     <h4>January 2017 - December 2017</h4>
                                     <p>
-                                        As a Systems Technician I was able to work in an unsupervised capacity on
+                                        As a Systems Technician I was able to work in an unsupervised capacity
+                                        on
                                         several of our client sites
-                                        that I interned on as a student at the Stride Center. I also played a critical
+                                        that I interned on as a student at the Stride Center. I also played a
+                                        critical
                                         part in working to
-                                        upgrade the school's computer systems and school migration to Office 365 and
+                                        upgrade the school's computer systems and school migration to Office 365
+                                        and
                                         Microsoft Teams. I also
-                                        spent time working with students who were preparing to take their CompTIA A+
+                                        spent time working with students who were preparing to take their
+                                        CompTIA A+
                                         exams as a menthor.
                                     </p>
                                     <h2>IT Intern - The Stride Center</h2>
@@ -269,11 +297,13 @@
                                     <p>
                                         As an advanced-student at The Stride Center, I was approved to join my
                                         instructor as a paid intern
-                                        to work fulltime as an IT Support Intern. I assisted my instructor and other
+                                        to work fulltime as an IT Support Intern. I assisted my instructor and
+                                        other
                                         Stride instructors at
                                         many of the 77-client locations in the San Francisco Bay Area providing
                                         remediation, installation, and
-                                        changes to various systems and networking equipment. I was able to utilize
+                                        changes to various systems and networking equipment. I was able to
+                                        utilize
                                         concepts learned from my time
                                         as a student at The Stride Center in a live working environment.
                                     </p>
@@ -303,14 +333,34 @@
                 <br><br>
                 <div class="card-deck">
                     <div class="card">
+                        <img class="card-img-top" src="/proswap.jpg" alt="Card image cap">
+                        <div class="card-body">
+                            <a href="https://proswap.io">
+                                <h5 class="card-title">ProSwap</h5>
+                            </a>
+                            <p class="card-text">ProSwap is my final project at Eleven Fifty Academy. It is an
+                                n-tier
+                                ASP.NET website that allows users to buy and sell online game accounts, items,
+                                and
+                                services.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated on 03/2020</small>
+                        </div>
+                    </div>
+
+                    <div class="card">
                         <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">DevWork</h5>
-                            <p class="card-text">DevWork is my blue badge project that I completed with my classmate
+                            <p class="card-text">DevWork is my blue badge project that I completed with my
+                                classmate
                                 Michael
-                                Milroy. This project was created to emphasize the creation of a WebAPI. During this
+                                Milroy. This project was created to emphasize the creation of a WebAPI. During
+                                this
                                 project,
-                                we were able to implement a WebAPI, as well as an MVC-frontend, Unit Testing, and
+                                we were able to implement a WebAPI, as well as an MVC-frontend, Unit Testing,
+                                and
                                 Dependency
                                 Injection within an n-tier solution.
                             </p>
@@ -319,112 +369,92 @@
                             <small class="text-muted">Last updated on 5/25/2020</small>
                         </div>
                     </div>
+
                     <div class="card">
                         <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">Discord Inspired Portfolio</h5>
-                            <p class="card-text">I created this project based around the Discord color pallette and
+                            <p class="card-text">I created this project based around the Discord color pallette
+                                and
                                 general styling of
-                                the service. Discord's a great application and while I do have some concerns related to
-                                security and privacy with the service, I primarily wanted to demonstrate my ability to
-                                create a theme inspired by a unique set of colors and stylings, as well as the play
+                                the service. Discord's a great application and while I do have some concerns
+                                related to
+                                security and privacy with the service, I primarily wanted to demonstrate my
+                                ability to
+                                create a theme inspired by a unique set of colors and stylings, as well as the
+                                play
                                 homage to a service that I use and appreciate very much.</p>
                         </div>
                         <div class="card-footer">
                             <small class="text-muted">Last updated on 5/25/2020</small>
                         </div>
                     </div>
+
                     <div class="card">
                         <img class="card-img-top" src="..." alt="Card image cap">
                         <div class="card-body">
                             <h5 class="card-title">The Dungeon game</h5>
-                            <p class="card-text">I worked in conjunction with Jonathon Crawford, a fellow Eleven Fifty
-                                Academy classmate, to create this project. We were tasked with creating either a hangman
-                                or dungeon style game. We decided to up the stakes and created a game that combined both
+                            <p class="card-text">I worked in conjunction with Jonathon Crawford, a fellow Eleven
+                                Fifty
+                                Academy classmate, to create this project. We were tasked with creating either a
+                                hangman
+                                or dungeon style game. We decided to up the stakes and created a game that
+                                combined both
                                 - and included a blackjack component.</p>
                         </div>
-
-                    </div>
-                    <div class="card">
-                        <img class="card-img-top" src="/proswap.jpg" alt="Card image cap">
-                        <div class="card-body">
-                            <a href="https://proswap.io">
-                                <h5 class="card-title">ProSwap</h5>
-                            </a>
-                            <p class="card-text">ProSwap is my final project at Eleven Fifty Academy. It is an n-tier
-                                ASP.NET website that allows users to buy and sell online game accounts, items, and
-                                services.</p>
-                        </div>
-                        <div class="card-footer">
-                            <small class="text-muted">Last updated on 03/2020</small>
-                        </div>
-                        <div class="card">
-                            <img class="card-img-top" src="..." alt="Card image cap">
-                            <div class="card-body">
-                                <a href="https://proswap.io">
-                                    <h5 class="card-title">ProSwap</h5>
-                                </a>
-                                <p class="card-text">ProSwap is my final project at Eleven Fifty Academy. It is an
-                                    n-tier
-                                    ASP.NET website that allows users to buy and sell online game accounts, items, and
-                                    services.</p>
-                            </div>
-                            <div class="card-footer">
-                                <small class="text-muted">Last updated on 03/2020</small>
-
-                            </div>
-                        </div>
-
                     </div>
 
                     <div class="about-container">
-                        <h1>My Skills</h1>
                         <br><br>
-                        <div class="csharp">
-                            <h2>C#/ASP.NET</h2>
-                            <div class="progress">
-                                <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
-                                    role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <br><br>
-                        <div class="html">
-                            <h2>WebAPI</h2>
-                            <div class="progress">
-                                <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
-                                    role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <br><br>
-                        <div class="css">
-                            <h2>MVC Razor Pages</h2>
-                            <div class="progress">
-                                <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
-                                    role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 80%"></div>
-                            </div>
-                        </div>
-                        <br><br>
-                        <div class="linux">
-                            <h2>IT Operations</h2>
-                            <div class="progress">
-                                <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
-                                    role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 90%"></div>
-                            </div>
-                        </div>
-                        <br><br>
-                        <div class="operations">
-                            <h2>Systems Administration</h2>
-                            <div class="progress">
-                                <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
-                                    role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
-                                    style="width: 95%"></div>
-                            </div>
-                        </div>
-                        <br><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="skills-container">
+                <h1>My Skills</h1>
+                <br><br>
+                <div class="csharp">
+                    <h2>C#/ASP.NET</h2>
+                    <div class="progress">
+                        <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 80%"></div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="html">
+                    <h2>WebAPI</h2>
+                    <div class="progress">
+                        <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 80%"></div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="css">
+                    <h2>MVC Razor Pages</h2>
+                    <div class="progress">
+                        <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
+                            role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 80%"></div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="linux">
+                    <h2>IT Operations</h2>
+                    <div class="progress">
+                        <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
+                            role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 90%"></div>
+                    </div>
+                </div>
+                <br><br>
+                <div class="operations">
+                    <h2>Systems Administration</h2>
+                    <div class="progress">
+                        <div class="danger-bar progress-bar-striped progress-bar-animated bg-secondary"
+                            role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100"
+                            style="width: 95%"></div>
                     </div>
                 </div>
             </div>
@@ -446,18 +476,16 @@
         <script
             src="https://cdnjs.cloudflare.com/ajax/libs/malihu-custom-scrollbar-plugin/3.1.5/jquery.mCustomScrollbar.concat.min.js"></script>
         <script type="text/javascript">
+
             $(document).ready(function () {
-                $("#sidebar").mCustomScrollbar({
-                    theme: "minimal"
-                });
 
                 $('#sidebarCollapse').on('click', function () {
-                    $('#sidebar, #content').toggleClass('active');
-                    $('.collapse.in').toggleClass('in');
-                    $('a[aria-expanded=true]').attr('aria-expanded', 'false');
+                    $('#sidebar').toggleClass('active');
+                    $(this).toggleClass('active');
                 });
             });
         </script>
 
 </body>
+
 </html>
